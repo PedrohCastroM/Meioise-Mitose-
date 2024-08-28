@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Mitose e Meiose</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <a class="nav-link" href="./home.html">HOME</a>
+        <a class="nav-link" href="./meiose.html">Meiose</a>
+        <a class="nav-link" href="./mitose.html">Mitose</a>
+    </nav>
+    </header>
+        <div class="container">
+        <h1>Jogo da Mitose e Meiose</h1>
+        <div id="quiz">
+            <p id="description">Descrição será exibida aqui.</p>
+            <button onclick="checkAnswer('mitose')">Mitose</button>
+            <button onclick="checkAnswer('meiose')">Meiose</button>
+        </div>
+        <div id="result"></div>
+        <button id="next" onclick="nextQuestion()">Próxima Pergunta</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

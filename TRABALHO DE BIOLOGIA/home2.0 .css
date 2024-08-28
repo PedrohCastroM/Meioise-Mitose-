@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #0A6847;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0,3s ease;
+}
+
+.nav-link:hover {
+    background-color: #7ABA78;
+
+}
+
+body{
+    background-image: url(img3.0-floresta.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    color: white;
+}

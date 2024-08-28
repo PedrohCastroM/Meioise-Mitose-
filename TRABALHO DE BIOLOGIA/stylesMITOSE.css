@@ -1,0 +1,68 @@
+body {
+    background-image: url(miose90.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px;
+    background-size: 110%;
+
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0,3s ease;
+}
+
+.container {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar {
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 10px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+    color: white;
+}
+
+li {
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
